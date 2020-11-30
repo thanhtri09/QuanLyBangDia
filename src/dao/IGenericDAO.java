@@ -10,7 +10,7 @@ public interface IGenericDAO<T, MA> {
 
 	T them(T obj);
 
-	T xoa(T obj);
+	Boolean xoa(T obj);
 
 	Boolean xoaTheoMa(MA ma);
 
